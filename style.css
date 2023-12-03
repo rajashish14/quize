@@ -1,0 +1,100 @@
+*{
+    font-family: 'Lucida Sans', 'Lucida Sans Regular', 'Lucida Grande', 'Lucida Sans Unicode', Geneva, Verdana, sans-serif;
+    box-sizing: border-box;
+}
+body{
+    height: 100%;
+    width: 100%;
+    display: flex;
+    background: linear-gradient(150deg,#f5f5f5);
+    justify-content: center;
+    align-items: center;
+    margin: 0;
+}
+.container{
+    margin-top: 110px;
+    background: linear-gradient(135deg,#A1C4FD, #c2E9FB);
+    width: 500px;
+    height: 500px;
+    display: flex;
+    justify-content: center;
+    align-items: center;
+    flex-direction: column;
+    border-radius: 10px;
+
+}
+.header{
+    display: flex;
+    height:85px;
+    width: 90%;
+    justify-content: center;
+    color: rgb(216, 144, 27);
+    font-weight: 500;
+    flex-direction: column;
+    /* background-color: #561616; */
+}
+.header h1{
+    width: 100%;
+    height: 50px;
+    /* background-color: aquamarine; */
+    margin-top: 0px;
+    margin-bottom: 4px;
+}
+.header span{
+    width: 100%;
+    height: 2px;
+    background-color: rgb(83, 81, 81);
+}
+.question{
+    width: 90%;
+    height: 50px;
+    font-weight: 500;
+    font-size: large;
+    margin-top: 0;
+}
+.form{
+    width: 90%;
+    height: 300px;
+    /* background-color: beige; */
+    display: flex;
+    justify-content: center;
+    flex-direction: column;
+    /* align-items: center; */
+}
+.form  button{
+    width: 100%;
+    height: 50px;
+    margin: 5px;
+    font-size: larger;
+    font-weight: 500;
+    border-radius: 20px;
+    border: 1px solid  #111;
+    cursor: pointer;
+}
+.form button:hover{
+    background-color: #8b9ebd;
+}
+
+.next{
+    width: 90%;
+    height: 60px;
+    display: flex;
+    justify-content: center;
+    align-items: center;
+    
+}
+.nextbutton{
+    font-size: large;
+    font-weight: 500;
+    width: 60px;
+    height: 30px;
+    color: white;
+    background-color: #2f79f1;
+    border: none;
+    border-radius: 15px;
+    cursor: pointer;
+    display: none;
+}
+.nextbutton:hover{
+    background-color: #449cc4;
+}
